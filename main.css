@@ -34,6 +34,7 @@ body{
     background-color: rgb(255, 255, 255);
     color: #454545;
 }
+
 /* Header Line */
 .Header hr {
     border: none;
@@ -43,10 +44,8 @@ body{
     height: 1px; /* Sets the height of the line */
       
 }
-/* Bottom nav bar 
-nav a is a CSS selector that targets 
-<a> (anchor) elements that are children of a <nav> element.
-*/
+
+/* My Name */
 .Name {
     display: flex;
     flex-direction: column;
@@ -54,7 +53,6 @@ nav a is a CSS selector that targets
     align-items: center;
     height: 50vh;
 }
-/* My Name */
 .Name h1{
     font: 90px/1.1em 'opensans-bold', sans-serif;
     text-shadow: 
@@ -109,6 +107,7 @@ nav a is a CSS selector that targets
     background-color: rgb(255, 255, 255);
     color: #454545;
 }
+
 /* scroll down icon */
 .scrolldown{
     list-style-type: none; /* Removes bullet points */
