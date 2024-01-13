@@ -149,6 +149,10 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+.Resume, .AboutMe{
+    flex: 1;
+    padding: 0 10px
+}
 .Resume{
     flex: 1; /* Takes up 50% of the flex container */
     max-width: 50%;
