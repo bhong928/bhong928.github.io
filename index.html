@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benedict Hong's Website</title>
+</head>
+
+<body>
+<!-- Header/Home Section -->
+<header id = "home" style="display: block;" class>
+    <div class="Header">
+        <nav>
+            <a href="index.html" class="w3-button w3-bar-item">Home</a>
+            <a href="/Users/benh/Desktop/Projects/WEBSITE/files/BenedictHong_Resume.pdf" target="_blank">Resume</a>
+            <a href="https://github.com/bhong928" target="_blank" class="w3-bar-item">GitHub</a>
+            <a class = "smoothscroll" href="#about" class="w3-button w3-bar-item">About Me</a>
+        </nav>
+        <!-- Hr defines a thematic break -->
+        <hr> 
+    </div>
+
+    <!-- Name -->
+    <div class="Name">
+        <h1>Benedict Hong</h1>
+        <h2>
+            <span>Software Engineer Student</span>
+            |
+            <span>University of Michigan - Dearborn</span>
+            <p>pc: Benedict Hong</p>
+        </h2>
+        <hr>
+    </div>
+    <!-- unordered list of socials under name -->
+    <ul class = "social">
+        <!-- github -->
+        <li>
+            <a href="https://github.com/bhong928" target="_blank">
+                <i class="fab fa-github" style="color: rgb(255, 255, 255);"></i>
+            </a>
+        </li>
+        <!-- linkedin -->
+        <li>
+            <a href="https://www.linkedin.com/in/benedict-hong-5396091a1/" target="_blank">
+                <i class="fab fa-linkedin" style="color: rgb(255, 255, 255);"></i>
+            </a>
+        </li>
+        <!-- email -->
+        <li>
+            <a href="mailto:benhong928@gmail.com">
+                <i class="fas fa-envelope" style="color: rgb(255, 255, 255);"></i>
+            </a>
+        </li>
+    </ul>
+
+    <!-- scroll downn icon -->
+    <p class="scrolldown">
+        <a class="smoothscroll" href="#about">
+            <i class="fas fa-arrow-down"style="color: rgb(255, 255, 255);"></i>
+        </a>
+    </p>
+</header>
+
+<!-- Resume PDF View Section -->
+<section id = "about">
+    <div class="Container">
+        <!-- display pdf resume -->
+        <div class ="Resume">
+            <iframe src="files/BenedictHong_Resume.pdf" title="Benedict Hong's Resume"></iframe>
+        </div>
+
+        <!-- about me details -->
+        <div class="AboutMe">
+            <img src="files/headshot.png" alt="Benedict Hong" class="headshot">
+            <h2>Allow me to introduce myself.</h2>
+            <hr>
+            <p>
+                Hi, i'm Ben.
+                I am a 3rd year software engineer student at the University of Michigan-Dearborn.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>

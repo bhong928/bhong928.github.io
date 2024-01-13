@@ -1,0 +1,187 @@
+body{
+    background-image: url(files/mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: 'opensans-bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Options */
+.Header nav {
+    min-height: 20px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.4);
+    font-size: 13px;
+    text-shadow: 
+    -.5px .5px 0 #423f3f,  
+     .5px -.5px 0 #423f3f,
+     -.5px  .5px 0 #423f3f,
+     .5px  .5px 0 #423f3f; /* text shadows around the text */
+}
+.Header nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 120px;
+}
+.Header nav a:hover {
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    background-color: rgb(255, 255, 255);
+    color: #454545;
+}
+/* Header Line */
+.Header hr {
+    border: none;
+    background-color: #000000;
+    clear: both;
+    margin-top: auto; /* Adjusts the space between the menu options and the horizontal line */
+    height: 1px; /* Sets the height of the line */
+      
+}
+/* Bottom nav bar 
+nav a is a CSS selector that targets 
+<a> (anchor) elements that are children of a <nav> element.
+*/
+.Name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+/* My Name */
+.Name h1{
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    text-shadow: 
+    -.5px .5px 0 #423f3f,  
+     .5px -.5px 0 #423f3f,
+     -.5px  .5px 0 #423f3f,
+     .5px  .5px 0 #423f3f; /* text shadows around the text */
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.Name h2{
+    font: 28px 'opensans-bold', sans-serif;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 
+    -.5px .5px 0 #423f3f,  
+     .5px -.5px 0 #423f3f,
+     -.5px  .5px 0 #423f3f,
+     .5px  .5px 0 #423f3f; /* text shadows around the text */
+}
+.Name h2 p{
+    font-size: 25px;
+}
+
+/* Socials Icons */
+.social{
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* This will allow you to position the list items in a row */
+    justify-content: center; /* This will center the list items within the `.social` container */
+}
+.social li {
+    font-size: 40px; /* Adjust the size as needed */
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+    display: inline-block;
+    line-height: 40px; /* Align the text vertically */
+    margin: 5px; /* Optional: to give some space around list items */
+    margin-right: 30px; /* gives space in between icons */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    text-align: center;
+}
+.social li:hover {
+    background-color: rgb(255, 255, 255);
+    color: #454545;
+}
+/* scroll down icon */
+.scrolldown{
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* This will allow you to position the list items in a row */
+    justify-content: center; /* This will center the list items within the `.social` container */
+    position: relative;
+    margin-top: 15%;
+
+}
+.scrolldown a {
+    font-size: 24px; /* Adjust the size as needed */
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+    display: inline-block;
+    line-height: 40px; /* Align the text vertically */
+    margin: 5px; /* Optional: to give some space around list items */
+    margin-right: 20px; /* gives space in between icons */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    text-align: center;
+}
+.scrolldown a:hover{
+    background-color:white;
+    color: #ffffff;
+}
+
+/* Resume Display */
+.Container {
+    display: flex;
+    flex-direction: row; /* Align children in a row */
+    align-items: flex-start;/* Align children to the start of the cross axis */
+    justify-content: center; /* Center children horizontally */
+    height: 100vh;
+    margin-top: 50vh; /* This will push the iframe down by the height of one viewport */
+    margin-bottom: 20vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Resume{
+    flex: 1; /* Takes up 50% of the flex container */
+    max-width: 50%;
+    padding-right: 10%;
+    padding-left: 0;
+    margin: 0;
+}
+.Resume iframe {
+    width: 100%;
+    height: 80vh; /* You can adjust the height as needed */
+    display: block; /* This changes the display from inline, which is default for iframes, to block */
+}
+.AboutMe {
+    color: white;
+    padding: 0;
+    margin-left: 0%;
+    margin-right: auto;
+    text-shadow: 
+    -.5px .5px 0 #423f3f,  
+     .5px -.5px 0 #423f3f,
+     -.5px  .5px 0 #423f3f,
+     .5px  .5px 0 #423f3f; /* text shadows around the text */
+}
+.headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    text-shadow: 
+    -.5px .5px 0 #423f3f,  
+     .5px -.5px 0 #423f3f,
+     -.5px  .5px 0 #423f3f,
+     .5px  .5px 0 #423f3f; /* text shadows around the text */
+}
