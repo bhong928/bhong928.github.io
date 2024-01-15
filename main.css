@@ -22,6 +22,7 @@ body{
      .5px -.5px 0 #423f3f,
      -.5px  .5px 0 #423f3f,
      .5px  .5px 0 #423f3f; /* text shadows around the text */
+    text-transform: uppercase;
 }
 .Header nav a {
     display: inline-block;
@@ -188,3 +189,4 @@ body{
      -.5px  .5px 0 #423f3f,
      .5px  .5px 0 #423f3f; /* text shadows around the text */
 }
+
