@@ -1,5 +1,6 @@
 body{
-    background-image: url(files/mountains.jpg);
+    /* background-image: url(files/mountains.jpg); */
+    background-color: rgb(28, 28, 28);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
